@@ -6,3 +6,4 @@ SELECT Title, Rating FROM movies
 INNER JOIN Boxoffice
 ON movies.id = Boxoffice.Movie_id
 ORDER BY Rating DESC;
+Lists movies by their rating in descending order
